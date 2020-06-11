@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d64d9c145b0b1c4ba9e0bfdf2237172, type: 3}
+  m_Name: Intro1
+  m_EditorClassIdentifier: 
+  StoryText: "You wake up in an empty ward and try to recollect your thoughts. The
+    last six months haven't been easy for you. It all started one ordinary evening
+    when you felt unusual dizzyness and had to go to bed early. As more days passed
+    your condition only deteriorated. You started having problems with memory, concentration
+    and eventually even moving your limbs. Diagnosed with a rare neurodegenerative
+    disease you were admitted to St. Abraxas Hospital to undergo an experimental
+    treatment. \n\nThe procedure is far from pleasant: your spinal cord is fixated
+    and several needles penetrate your spine to inject medicine directly into your
+    cerebrospinal fluid. It's a slow and painful process and you have to endure it
+    each day. The doctors warned you that it's going to get worse before it gets
+    better. But so far things seem to get only worse and worse. Most of the time
+    you find yourself in a semiconscious state and have trouble feeling any external
+    stimuli besides pain. You lost the count of days long ago. Sometimes it is as
+    if the whole week passes in a few minutes and sometimes one hour seems like an
+    eternity. You drift in and out of slumber unable to get a firm grasp on reality."
+  StoryTextTagged: "You wake up in an empty ward and try to recollect your thoughts[jit:1.5;
+    sync:off; timeToChange:1; pauseText:2; music:needle].[jit:0; timeToChange:0.5;
+    music:heart] [sync:on]The last six months haven't been easy for you. It all started
+    one ordinary evening when you felt unusual dizzyness and had to go to bed early[jit:-1;
+    noise:-1; heartRate:150; sync:on]. As more days passed your condition only deteriorated.
+    You started having problems with memory, concentration and eventually even moving
+    your limbs[jit:0; noise:1;music:def]. Diagnosed with a rare neurodegenerative
+    disease you were admitted to St. Abraxas Hospital to undergo an experimental
+    treatment. \n\nThe procedure is far from pleasant: your spinal cord is fixated
+    and several needles penetrate your  spine[1;-1;-1;needle] to inject medicine
+    directly into your cerebrospinal fluid.[-1;-1;-1;def] It's a slow and painful
+    process and you have to endure it each day. The doctors warned you that it's
+    going to get worse before it gets better. But so far things seem to get only
+    worse and worse. Most of the time you find yourself in a semiconscious state
+    and have trouble feeling any external stimuli besides pain. You lost the count
+    of days long ago. Sometimes it is as if the whole week passes in a few minutes
+    and sometimes one hour seems like an eternity. You drift in and out of slumber
+    unable to get a firm grasp on reality."
+  FirstChoice: 
+  SecondChoice: 
+  ThirdChoice: 
+  StateType: 0
+  IsNewScreen: 1
+  NextStates:
+  - {fileID: 11400000, guid: 548f86b994b60094d8d0ef811ec6981e, type: 2}
+  BackgroundSprite: {fileID: 21300000, guid: 9854256ccad028c46b930417d6fb89bb, type: 3}

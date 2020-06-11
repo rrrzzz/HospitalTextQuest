@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d64d9c145b0b1c4ba9e0bfdf2237172, type: 3}
+  m_Name: E1F
+  m_EditorClassIdentifier: 
+  StoryText: 'You run down the stairs hoping the exit is not locked. With each step
+    you realize that your enthusiasm about legs was premature. Their strength is fading
+    at an alarming rate.
+
+    But you endure and you continue until you see a sign "First floor." Enter, locate
+    exit. Exit is not locked. Relief. Open it and realize it is winter, snowstorm,
+    low visibility, freezing cold. You barely have any clothes on you.
+
+
+    What future holds for you is unknown. Freezing to death is the most likely outcome.
+    You will go as far as you can but cold will devour your strength. It will be cold,
+    very cold, until cold becomes warm and puts you to sleep. Eternal sleep...'
+  FirstChoice: 
+  SecondChoice: 
+  ThirdChoice: 
+  StateType: 0
+  IsNewScreen: 0
+  NextStates:
+  - {fileID: 11400000, guid: 7d8961e0aa4e79e46ae9cdc9951b0269, type: 2}
+  BackgroundSprite: {fileID: 0}

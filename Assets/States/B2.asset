@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d64d9c145b0b1c4ba9e0bfdf2237172, type: 3}
+  m_Name: B2
+  m_EditorClassIdentifier: 
+  StoryText: "\u201CI know it\u2019s hard, believe I do. But we didn\u2019t hide any
+    information from you during your first visit. We said that it will take at least
+    half a year to see any improvements in a difficult case like yours. Trust is the
+    key here. You got to think positive and don\u2019t let any doubts undermine your
+    emotional state. I understand that it\u2019s easier said than done but you have
+    to remember that we are here for you and we are doing everything we can to cure
+    this vicious disease.\u201D Doctor smiles gently.\r\nThis smile of his showing
+    up again and again starts looking a bit fake. Oh well, I guess he has seen dozens
+    if not hundreds of patients like me and it must be hard to genuinely invest emotions
+    every time. At least he is trying."
+  FirstChoice: 
+  SecondChoice: 
+  ThirdChoice: 
+  StateType: 0
+  IsNewScreen: 0
+  NextStates:
+  - {fileID: 11400000, guid: be1dd8e1d167ec04abe64abd28c61c6b, type: 2}
+  BackgroundSprite: {fileID: 0}

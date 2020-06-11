@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d64d9c145b0b1c4ba9e0bfdf2237172, type: 3}
+  m_Name: D3
+  m_EditorClassIdentifier: 
+  StoryText: "Run to the door. Miraculously your legs are moving and moving swiftly.
+    As if the paralysis allowed them to store copious amounts of energy which is bursting
+    out as you run. \n\nThe doctor tries to grab you but you dodge. He loses his balance
+    and falls on the floor.\n\nYou run through the hall and see the door leading to
+    the stairs.\n\nWhat will you do next? \n"
+  FirstChoice: Run downstairs to the first floor and exit the building.
+  SecondChoice: Run downstairs, enter random floor because you are not sure how long
+    your legs will last and maybe there is somebody who can help.
+  ThirdChoice: 
+  StateType: 1
+  IsNewScreen: 0
+  NextStates:
+  - {fileID: 11400000, guid: fd6e4abf9dd61c8448a0f64a680c5f9d, type: 2}
+  - {fileID: 11400000, guid: 8eeec1a0ee7541141b3449e99913f02f, type: 2}
+  BackgroundSprite: {fileID: 0}

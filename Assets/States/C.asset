@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d64d9c145b0b1c4ba9e0bfdf2237172, type: 3}
+  m_Name: C
+  m_EditorClassIdentifier: 
+  StoryText: "\u201COkay we should get you to your ward now, there is a comfortable
+    bed and all this noise from medical devices won\u2019t bother you,\u201D doctor
+    says.  \r\nStrangely there is no wheelchair which he usually brings along but
+    he proposes to carry you in his arms. Maybe all of them are in use. 'Whatever
+    is the case I don\u2019t have much choice here', you think to yourself and agree.
+    He disconnects all the wires, grabs you under the back and knees and puts on
+    his shoulder firmly holding you by the thighs. It\u2019s a little awkward that
+    somebody touches you there. But he is a professional so you decide not to worry
+    about it.\r\n\nAs he carries you through the empty halls you ask the doctor what\u2019s
+    wrong with this place and where is everybody? \r\n\u201CRelax, my child, everything
+    is fine. We just had a little restructurization and started moving all the personnel
+    and patients into a new building. Most of them have already moved but we are
+    thinking about the best way to proceed with non-walking patients.\u201D"
+  StoryTextTagged: 
+  FirstChoice: 
+  SecondChoice: 
+  ThirdChoice: 
+  StateType: 0
+  IsNewScreen: 0
+  NextStates:
+  - {fileID: 11400000, guid: bace9ec4e5cefec4f8184d88f25dfd6e, type: 2}
+  BackgroundSprite: {fileID: 0}

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d64d9c145b0b1c4ba9e0bfdf2237172, type: 3}
+  m_Name: Intro3
+  m_EditorClassIdentifier: 
+  StoryText: You lost the count of days long ago. Sometimes it is as if the whole
+    week passes in a few minutes and sometimes one hour seems like an eternity. You
+    drift in and out of slumber unable to get a firm grasp on reality. Today is nothing
+    different. You feel groggy and your spine is still sore from recent punctures.
+    The only difference is an unusual silence. You can hear a gentle humming of the
+    machinery used in your treatment but that's about it. No doctors, no other patients.
+    Has this place been deserted and everyone forgot about you?
+  FirstChoice: 
+  SecondChoice: 
+  ThirdChoice: 
+  StateType: 0
+  IsNewScreen: 0
+  NextStates:
+  - {fileID: 11400000, guid: 548f86b994b60094d8d0ef811ec6981e, type: 2}
+  BackgroundSprite: {fileID: 0}

@@ -1,0 +1,2 @@
+﻿- Create cue system to launch certain events when some text is shown
+        Params: jitter, noise, heartbeat rate, additional sounds

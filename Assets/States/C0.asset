@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d64d9c145b0b1c4ba9e0bfdf2237172, type: 3}
+  m_Name: C0
+  m_EditorClassIdentifier: 
+  StoryText: "As you are about to approach the door to your ward you suddenly have
+    a horrible premonition. You recognize the place but looks like it was abandoned
+    a long time ago. There is dust everywhere and even cobwebs in some corners. At
+    first you think it\u2019s your familiar inner demons rearing their ugly heads
+    but the feeling is somehow different this time around."
+  FirstChoice: Calm yourself down. There is no need to make your despair and anxiety
+    even worse. And there is no reason not to trust your doctor. Without janitors
+    any public space becomes dirty in a matter of days.
+  SecondChoice: Muster all your strength and power of will. Try to remain as alert
+    as you can, and prepare for the worst.
+  ThirdChoice: 
+  StateType: 1
+  IsNewScreen: 0
+  NextStates:
+  - {fileID: 11400000, guid: bf050e652b6b3714ea5782d6b7fcdf30, type: 2}
+  - {fileID: 11400000, guid: 8abae3849f52b4e4cb0ffb4978506a9f, type: 2}
+  BackgroundSprite: {fileID: 0}

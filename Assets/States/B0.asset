@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d64d9c145b0b1c4ba9e0bfdf2237172, type: 3}
+  m_Name: B0
+  m_EditorClassIdentifier: 
+  StoryText: "\u201CHow are you today?\u201D doctor asks with a warm and friendly
+    smile."
+  FirstChoice: Tell about all your pain and misery and desperately ask doctor for
+    some medicine to lessen your mental and bodily torment. You now this stuff can
+    have some nasty side effects but anything is better than what you are going through
+    right now.
+  SecondChoice: "Complain about treatment which doesn\u2019t seem to have any effects
+    beside worsening your psychological well-being. "
+  ThirdChoice: "Tell him that you don\u2019t feel very well and the legs bother you
+    a lot but you will fight through it and understand that healing takes time, especially
+    in a case like yours. "
+  StateType: 1
+  IsNewScreen: 0
+  NextStates:
+  - {fileID: 11400000, guid: 3b29e05eda3570f40831e8e2d98bb509, type: 2}
+  - {fileID: 11400000, guid: 48997e3043eb3344fbf5f400ddfedeb6, type: 2}
+  - {fileID: 11400000, guid: 0e535104802fc314698a588442711abb, type: 2}
+  BackgroundSprite: {fileID: 21300000, guid: dd1a6b3d04b290e40be486a1f1e98f7c, type: 3}
