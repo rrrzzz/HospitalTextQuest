@@ -6,15 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/2D Scene.unity
+    path: Assets/Eternal endeavour/Scenes/2D Scene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/3D Scene.unity
+    path: Assets/Eternal endeavour/Scenes/3D Scene.unity
     guid: 5ae56a30bce10294baf5efe3954f5392
   - enabled: 0
-    path: Assets/Scenes/2D Scene Test.unity
+    path: Assets/Eternal endeavour/Scenes/2D Scene Test.unity
     guid: bfb6112ab124a384a94d0f5eed6d9a74
   - enabled: 0
-    path: Assets/Scenes/3D SceneTEST.unity
+    path: Assets/Eternal endeavour/Scenes/3D SceneTEST.unity
     guid: 70b30832c9e24d24bbd63cd7c29c91a9
   m_configObjects: {}

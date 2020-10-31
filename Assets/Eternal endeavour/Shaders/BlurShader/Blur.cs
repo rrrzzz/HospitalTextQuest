@@ -2,6 +2,8 @@
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.PostProcessing;
+using FloatParameter = UnityEngine.Rendering.PostProcessing.FloatParameter;
+using IntParameter = UnityEngine.Rendering.PostProcessing.IntParameter;
 
 namespace _3D_scene.BlurShader
 {
@@ -42,9 +44,9 @@ namespace _3D_scene.BlurShader
 
             command.BeginSample("BlurPostEffect");
 
-            int downsample = settings.Downsample;
-            int blurIterations = settings.BlurIterations;
-            float blurSize = settings.BlurSize;
+            var downsample = settings.Downsample;
+            var blurIterations = settings.BlurIterations;
+            var blurSize = settings.BlurSize;
             float widthMod = 1.0f / (1.0f * (1 << downsample));
 
             int rtW = context.width >> downsample;
