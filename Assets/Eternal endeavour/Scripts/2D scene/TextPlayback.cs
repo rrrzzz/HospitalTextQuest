@@ -122,8 +122,8 @@ public class TextPlayback : MonoBehaviour
         _previousTime = Time.realtimeSinceStartup;
         _sceneText.maxVisibleCharacters = 0;
         _sceneText.text = CurrentState.StoryText;
-        _taggedText = CurrentState.StoryTextTagged;
-        _isTextTagged = _taggedText.Contains(TagStartChar);
+        // _taggedText = CurrentState.StoryTextTagged;
+        // _isTextTagged = _taggedText.Contains(TagStartChar);
         _taggedTextCurrentChar = 0;
         _isAllTextShown = false;
     }
@@ -211,11 +211,6 @@ public class TextPlayback : MonoBehaviour
 
     private void ChangeState()
     {
-        if (!CurrentState.NextStates.Any())
-        {
-            Debug.Log("Game over!");
-            return;
-        }
 
         if (CurrentState.StateType == StateType.Choice)
         {
@@ -227,6 +222,14 @@ public class TextPlayback : MonoBehaviour
         }
         else
         {
+            if (CurrentState.NextStates.Length == 0)
+            {
+                Cursor.lockState = CursorLockMode.Locked;
+                Cursor.visible = false;
+                Debug.Log("game over");
+                Application.Quit();
+                return;
+            }
             CurrentState = CurrentState.NextStates[0];
         }
 

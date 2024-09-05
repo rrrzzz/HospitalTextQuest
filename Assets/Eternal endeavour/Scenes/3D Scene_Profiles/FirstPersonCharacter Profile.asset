@@ -12,16 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11dafb5c6d847c4485fc4c581745be2, type: 3}
   m_Name: Wave
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   enabled:
     overrideState: 1
-    value: 1
+    value: 0
   divisor:
     overrideState: 1
-    value: 125
+    value: 228
   speed:
     overrideState: 1
-    value: 3
+    value: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0

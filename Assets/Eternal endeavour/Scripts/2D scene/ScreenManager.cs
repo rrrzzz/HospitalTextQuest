@@ -25,6 +25,8 @@ public class ScreenManager : MonoBehaviour
     // Use this for initialization
     void Start ()
     {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
         _textScript = TextMesh.GetComponent<TextPlayback>();
         _textScript.IsExecuting = true;
         _frameImage = TextFrame.GetComponent<Image>();

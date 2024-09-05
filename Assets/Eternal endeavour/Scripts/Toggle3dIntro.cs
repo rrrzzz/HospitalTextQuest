@@ -1,4 +1,5 @@
-﻿using _3D_scene;
+﻿using System;
+using _3D_scene;
 using UnityEngine;
 
 [ExecuteInEditMode]
@@ -11,6 +12,12 @@ public class Toggle3dIntro : MonoBehaviour
 
     public GameObject devouringDarknessObject;
     public GameObject mainSceneLogic;
+
+    private void Awake()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+    }
 
     private void OnValidate()
     {
