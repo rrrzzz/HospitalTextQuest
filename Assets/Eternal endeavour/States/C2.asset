@@ -4,20 +4,24 @@
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1d64d9c145b0b1c4ba9e0bfdf2237172, type: 3}
   m_Name: C2
   m_EditorClassIdentifier: 
-  StoryText: "As the doctor carries you into the ward you notice that there seems
-    to be something unusual about your bed. Try to point out what it is, notice leather
-    handcuffs attached to sides of the bed. \n\nPretend you haven't noticed anything.
-    Doctor lays you on the bed. Prepares syringe with sleeping aid. While he is busy
-    with preparations concentrate all your mental and physical energy, jump from the
-    bed. \n\nLook around for a way out, see the trolley with a scalpel on it. \nThere
-    is also a door but the doctor is near it.\n\nWhat do you do next? "
+  StoryText: "As the doctor carries you into the ward, you notice something unusual
+    about the bed. You try to figure out what it is and then spot the leather handcuffs
+    attached to the sides of the bed.\r\n\r\nYou pretend you haven't noticed anything.
+    The doctor lays you down gently and begins preparing a syringe filled with a
+    sleep aid. While he is focused on his preparations, you concentrate all your
+    mental and physical energy, and with a sudden burst, you jump off the bed.\r\n\r\nQuickly,
+    you look around for a way out. You spot a trolley with a scalpel lying on it.
+    There's also a door, but the doctor is standing close by.\r\n\r\nWhat do you
+    do next?\r"
+  StoryTextTagged: 
   FirstChoice: Grab a scalpel from the desk and attack the doctor.
   SecondChoice: Slit your throat ending this nightmare once and for all.
   ThirdChoice: Run to the door.

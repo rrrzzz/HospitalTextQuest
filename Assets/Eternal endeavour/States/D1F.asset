@@ -12,25 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d64d9c145b0b1c4ba9e0bfdf2237172, type: 3}
   m_Name: D1F
   m_EditorClassIdentifier: 
-  StoryText: "Doctor dodges, kicks it out of your hand, puts you into straightjacket.
-    As soon as he manages to stuff you inside there is a feeling that something is
-    not right with this jacket. Shortly after you realize that there are two accurate
-    incisions: one in the front and one in the back. Resourceful doctor killed two
-    birds with one stone. He restricted your movements and got a convenient access
-    to both of your holes at the same time.\r\n- \u201CYou\u2019ve got the spirit
-    girl! I like that but I think we need to make you a little bit more docile so
-    all the procedures are cancelled from now on. Meaning of course that the lower
-    part of your body will become completely paralyzed and who knows what else...\u201D
-    - A brief sinister grin distorts the outline of his mouth \u2013 \u201CIf you
-    don\u2019t want to make already tiny chances to walk again even smaller I strongly
-    suggest to reconsider your attitude. And now I am going to give you some time
-    to think. Use it wisely.\u201D\r\nHe throws your body into the bed and promptly
-    leaves humming a merry tune.\r\n"
+  StoryText: "The doctor dodges, kicks it out of your hand and easily puts your weakened
+    body into straightjacket. As soon as he manages to stuff you inside there is
+    a feeling that something is not right with this jacket. Shortly after you realize
+    that there are two accurate incisions: one in the front of your crotch and one
+    in the back. Resourceful doctor killed two birds with one stone. He restricted
+    your movements and got a convenient access to both of your lower holes at the
+    same time.\r\n- \u201CYou\u2019ve got the spirit girl! I like that but I think
+    we need to make you a little bit more docile so all the procedures are cancelled
+    from now on. Meaning of course that the lower part of your body will become completely
+    paralyzed and who knows what else...\u201D - A brief sinister grin distorts the
+    outline of his mouth \u2013 \u201CIf you don\u2019t want to make already tiny
+    chances to walk again even smaller I strongly suggest to reconsider your attitude.
+    And now I am going to give you some time to think. Use it wisely.\u201D\r\nHe
+    throws your body into the bed and promptly leaves humming a merry tune.\r\n"
+  StoryTextTagged: 
   FirstChoice: 
   SecondChoice: 
   ThirdChoice: 
   StateType: 0
   IsNewScreen: 0
   NextStates:
-  - {fileID: 11400000, guid: 7d8961e0aa4e79e46ae9cdc9951b0269, type: 2}
+  - {fileID: 11400000, guid: 0314e271eee3b004f8b07db3d5224b74, type: 2}
   BackgroundSprite: {fileID: 0}
